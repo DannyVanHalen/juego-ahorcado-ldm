@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ahorcado</string>
+    <string name="main_title">JUEGO AHORCADO</string>
+    <string name="login_title">MODO JUEGO</string>
+    <string name="jugador1">UN JUGADOR</string>
+    <string name="help">AYUDA</string>
+    <string name="exit">SALIR</string>
+    <string name="login">INICIAR SESION</string>
+    <string name="singin">REGISTRARSE</string>
+    <string name="user">USUARIO</string>
+    <string name="pass">PASSWORD</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCELAR</string>
+</resources>
