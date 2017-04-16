@@ -20,6 +20,19 @@
                 <category android:name="android.intent.category.ALTERNATIVE"/>
             </intent-filter>
         </activity>
+        <activity android:name=".JuegoAhorcadoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.JUEGO_AHORCADO"/>
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Top_Jugadores">
+            <intent-filter>
+                <action android:name="android.intent.action.TOP_JUGADORES"/>
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

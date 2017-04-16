@@ -4,6 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 /**
  * Created by dani on 19/10/16.
  */
@@ -11,8 +14,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class BBDD_Jugadores extends SQLiteOpenHelper {
 
 
-    private String sqlTable; //"CREATE TABLE "+BBDD_NAME+" (NOMBRE TEXT PRIMARY KEY, PASS TEXT, PUNTUACION INTEGER)";
-    private String dropSqlTable;
+    private String sqlTable; //"create table Jugadores(mail text primary key, nombre text, pass text, puntuacion integer)"
+    private String dropSqlTable; //"drop table if exists Jugadores"
     private SQLiteDatabase db;
 
     public BBDD_Jugadores(Context context, String name, SQLiteDatabase.CursorFactory factory, int version, String sqlTable, String dropSqlTable) {
@@ -31,6 +34,5 @@ public class BBDD_Jugadores extends SQLiteOpenHelper {
         db.execSQL(this.dropSqlTable);
         db.execSQL(this.sqlTable);
     }
-
 
 }

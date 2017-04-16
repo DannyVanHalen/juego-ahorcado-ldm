@@ -43,7 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:background="@android:color/transparent"
-            android:text="@string/help"/>
+            android:text="@string/help"
+            android:onClick="ayuda"/>
 
         <Button
             android:id="@+id/salida"
